@@ -1,0 +1,115 @@
+.add-topic-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.add-topic-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.add-topic-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.add-topic-container .top-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-topic-container li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.add-topic-container .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.add-topic-container .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.add-topic-container .modal-content .new-topic-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.add-topic-container .add-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-topic-container .add-button:hover {
+    background-color: #0056b3;
+    transition: 300ms;
+}
+
+.add-topic-container .remove-button {
+    background-color: #d50808;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-topic-container .remove-button:hover {
+    transition: 300ms;
+    background-color: #810707;
+}
+
+.add-topic-container .add-topic-button {
+    display: inline-block;
+    padding: 7px 14px;
+    font-size: 15px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.add-topic-container .add-topic-button:hover {
+    background-color: #ddd;
+    transform: scale(1.05);
+    transition: 300ms;
+}
+
+.add-topic-container .search-input {
+    width: 98.5%;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid;
+    outline: none;
+}
+
+.add-topic-container .added-topic {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #aaaaaa;
+}

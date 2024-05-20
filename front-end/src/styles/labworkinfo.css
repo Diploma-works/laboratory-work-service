@@ -1,0 +1,44 @@
+.labwork {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 1200px;
+    height: 100px;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.labwork h2 {
+    color: #333333;
+}
+
+.labwork p {
+    color: #666666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.labwork ul {
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.labwork ul li {
+    list-style-type: none;
+    color: #999999;
+}
+
+.labwork ul li::before {
+    content: '•';
+    color: #999999;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.labwork:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}

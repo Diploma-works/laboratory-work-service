@@ -1,0 +1,53 @@
+.expand-main {
+    text-align: center;
+}
+
+.expand-main h1 {
+    margin-bottom: 20px;
+}
+
+.expand-menu-link {
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.expand-menu-link:hover {
+    background-color: #ddd;
+    transform: scale(1.05);
+    transition: 300ms;
+}
+
+.reset-button {
+    background-color: #d50808;
+}
+
+.cancel-button {
+    background-color: #007bff;
+}
+
+.reset-button, .cancel-button {
+    cursor: pointer;
+    padding: 8px 24px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.reset-button:hover {
+    background-color: #810707;
+    transition: 300ms;
+}
+
+.cancel-button:hover {
+    background-color: #0056b3;
+    transition: 300ms;
+}

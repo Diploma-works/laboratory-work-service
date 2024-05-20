@@ -1,0 +1,15 @@
+.labwork-list {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.labwork-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 1300px;
+}
+
+a {
+    text-decoration: none;
+}

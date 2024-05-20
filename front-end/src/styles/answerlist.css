@@ -1,0 +1,203 @@
+.answer-list-title {
+    text-align: center;
+    margin: 0;
+}
+
+.answer-table {
+    border-collapse: collapse;
+}
+
+.answer-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.answer-table th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.download-file-link {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 70%;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.download-file-link:hover {
+    background-color: #367e39;
+    transition: 300ms;
+}
+
+.answer-table {
+    border-collapse: collapse;
+    width: max-content;
+    min-width: 100%;
+    margin-top: 20px;
+}
+
+.labwork-answer {
+    overflow-x: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.answer-list-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.labwork-answer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.labwork-answer li {
+    margin-bottom: 10px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content h3 {
+    margin-top: 0;
+}
+
+.modal-content input[type="file"],
+.modal-content textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.submit-button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 3px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+    transition: 300ms;
+}
+
+.modal-content .close-button {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    font-size: 20px;
+    cursor: pointer;
+    color: #4b0f77;
+}
+
+.modal-content .close-button:hover {
+    color: #ff0000;
+}
+
+.modal-content {
+    position: relative;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-button {
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+/* Track (полоса прокрутки) */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle (ползунок) */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle при наведении */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.no-answers {
+    text-align: center;
+}
+
+.delete-answer {
+    background-color: #d50808;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 55%;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.delete-answer:hover {
+    background-color: #810707;
+    transition: 300ms;
+}
+
+.add-answer {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid;
+    color: #333;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.add-answer:hover {
+    background-color: #ddd;
+    transition: 300ms;
+}

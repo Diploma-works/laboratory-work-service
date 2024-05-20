@@ -1,0 +1,157 @@
+.labwork-edit-container {
+    margin-top: 20px;
+    width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.labwork-edit-container input[type="text"],
+.labwork-edit-container textarea {
+    width: 575px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.labwork-edit-container textarea {
+    height: 150px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    resize: none;
+    outline: none;
+}
+
+.labwork-edit-container .delete-topic-button {
+    width: 33px;
+    height: 33px;
+    padding: 8px 12px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d50808;
+    color: #fff;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.labwork-edit-container .delete-topic-button:hover {
+    background-color: #810707;
+    transition: 300ms;
+}
+
+.labwork-edit-container select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.add-topic-div {
+    margin-bottom: 15px;
+}
+
+.labwork-edit-container .add-topic-button {
+    padding: 9px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    transition: 300ms;
+    cursor: pointer;
+    border: none;
+}
+
+.labwork-edit-container .add-topic-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    transition: 300ms;
+}
+
+.labwork-edit-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.labwork-edit-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.labwork-edit-container ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.labwork-edit-container ul li .added-topic {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.labwork-edit-container form div {
+    display: flex;
+    align-items: center;
+}
+
+.labwork-edit-container form div select {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.labwork-edit-container .save-button {
+    background-color: #007bff;
+    margin-bottom: 10px;
+}
+
+.labwork-edit-container .save-button:hover {
+    background-color: #0056b3;
+}
+
+.labwork-edit-container .delete-lab-button {
+    background-color: #d50808;
+}
+
+.labwork-edit-container .delete-lab-button:hover {
+    background-color: #810707;
+}
+
+.labwork-edit-container .save-button,
+.labwork-edit-container .delete-lab-button {
+    padding: 10px;
+    width: 600px;
+    border-radius: 5px;
+    color: #fff;
+    transition: 300ms;
+    cursor: pointer;
+    border: none;
+}
+
+.labwork-edit-container .save-button:hover,
+.labwork-edit-container .delete-lab-button:hover {
+    transform: scale(1.01);
+    transition: 300ms;
+}
+
+.back-button {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    border: none;
+    padding: 10px 40px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #ddd;
+    transform: scale(1.05);
+    transition: 300ms;
+}
